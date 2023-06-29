@@ -24,7 +24,7 @@ class SendEmailTool(BaseTool):
         description : The description.
         args_schema : The args schema.
     """
-    name: str = "Send Email"
+    name: str = "Test Send Email"
     args_schema: Type[BaseModel] = SendEmailInput
     description: str = "Send an Email"
 

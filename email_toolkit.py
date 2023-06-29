@@ -7,7 +7,7 @@ from send_email_attachment import SendEmailAttachmentTool
 
 
 class EmailToolkit(BaseToolkit, ABC):
-    name: str = "Email Toolkit"
+    name: str = "Testing Email Toolkit"
     description: str = "Email Tool kit contains all tools related to sending email"
 
     def get_tools(self) -> List[BaseTool]:

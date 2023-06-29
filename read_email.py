@@ -25,7 +25,7 @@ class ReadEmailTool(BaseTool):
         description : The description of the tool.
         args_schema : The args schema.
     """
-    name: str = "Read Email"
+    name: str = "Test Read Email"
     args_schema: Type[BaseModel] = ReadEmailInput
     description: str = "Read emails from an IMAP mailbox"
 

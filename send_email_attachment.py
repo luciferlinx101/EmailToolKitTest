@@ -27,7 +27,7 @@ class SendEmailAttachmentTool(BaseTool):
         description : The description.
         args_schema : The args schema.
     """
-    name: str = "Send Email with Attachment"
+    name: str = "Test Send Email with Attachment"
     args_schema: Type[BaseModel] = SendEmailAttachmentInput
     description: str = "Send an Email with a file attached to it"
 
