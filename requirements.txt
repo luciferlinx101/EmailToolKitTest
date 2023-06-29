@@ -1,1 +1,6 @@
-pydantic==1.10.7
+pydantic==1.10.9
+PyYAML==6.0
+superagi @ file:///home/abhijeet/AMAN/code/superagi_package/dist/superagi-1.0.0.tar.gz#sha256=1c56f16177d08dda36e3227aea27a3bc50881b83f23688adb540f4299234d141
+typing_extensions==4.6.3
+
+beautifulsoup4~=4.12.2
